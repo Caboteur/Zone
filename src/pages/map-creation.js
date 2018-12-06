@@ -80,6 +80,7 @@ export default class MapCreation extends React.Component {
              Display = "inherit"
            }
             else {
+
               const ref = firebase.database().ref('Users/' + account + "/map");
               ref.set({
                 style: this.state,
