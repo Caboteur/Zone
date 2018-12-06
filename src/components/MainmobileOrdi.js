@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Logo from '../images/LOGOFINALE.svg'
 import SignIn from '../images/SignIN.svg'
 import SignUp from '../images/SignOUT.svg'
-import firebase from '../config.js'
+import firebase from './config.js'
 import { navigate } from "gatsby"
 
 

@@ -6,7 +6,7 @@ import Exit from '../images/exitButton.svg'
 import Trash from '../images/trash.svg'
 import Watch from '../images/watch.svg'
 import { navigate } from "gatsby"
-import firebase from '../config.js'
+import firebase from '../components/config.js'
 
   var snap;
   var result = false;

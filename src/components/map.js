@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import mapboxgl from 'mapbox-gl';
-import firebase from '../config.js'
+import firebase from './config.js'
 import { navigate } from "gatsby"
 import Exit from '../images/exitButton.svg'
 
@@ -246,6 +246,8 @@ export default class Map extends React.Component {
     }
 
      render(){
+
+       if (typeof window === `undefined`) { return null; }
 
        return(
         <div>
