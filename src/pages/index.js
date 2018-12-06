@@ -7,6 +7,7 @@ import  MainmobileOrdi from '../components/MainmobileOrdi.js'
 import  MainpageMobile from '../components/MainpageMobile.js'
 import firebase from '../components/config.js'
 import { navigate } from "gatsby"
+import '../components/layout.css'
 
 
 export default class Indexpage extends React.Component {

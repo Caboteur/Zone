@@ -7,6 +7,7 @@ import Trash from '../images/trash.svg'
 import Watch from '../images/watch.svg'
 import { navigate } from "gatsby"
 import firebase from '../components/config.js'
+import '../components/layout.css'
 
   var snap;
   var result = false;

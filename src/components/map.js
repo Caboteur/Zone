@@ -3,7 +3,7 @@ import mapboxgl from 'mapbox-gl';
 import firebase from './config.js'
 import { navigate } from "gatsby"
 import Exit from '../images/exitButton.svg'
-
+import './layout.css'
 
 var lati = '';
 var longi = '';

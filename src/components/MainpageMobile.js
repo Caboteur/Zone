@@ -5,6 +5,8 @@ import SignIn from '../images/Login.svg'
 import SignUp from '../images/inscription.svg'
 import firebase from './config.js'
 import { navigate } from "gatsby"
+import './layout.css'
+
 
 var Display = "none";
 
