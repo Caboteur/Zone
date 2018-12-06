@@ -1,11 +1,3 @@
-
-
-// Wrap the require in check for window
-if (typeof window !== `undefined`) {
-  const module = require("module")
-}
-
-
 module.exports = {
   siteMetadata: {
     title: 'Gatsby Default Starter',
@@ -28,8 +20,8 @@ module.exports = {
         name: 'gatsby-starter-default',
         short_name: 'starter',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#0B3F63',
+        theme_color: '#0B3F63',
         display: 'minimal-ui',
         icon: 'src/images/zoneLogo.svg', // This path is relative to the root of the site.
       },

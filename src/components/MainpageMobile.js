@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Logo from '../images/zoneLogo.svg'
-import SignIn from '../images/Login.svg'
-import SignUp from '../images/inscription.svg'
+import SignUp from '../images/signup.png'
+import LogIn from '../images/login.png'
 import firebase from './config.js'
 import { navigate } from "gatsby"
 import './layout.css'
@@ -101,7 +101,7 @@ export default class  MainmobileMobile extends React.Component {
         <img className="logo-mobile" src={Logo}></img>
         <input className="input" placeholder="email" value={this.state.email} onChange={ this.handleChangeMail} type="text" />
         <input className="input" type="password" placeholder="mot de passe" value={this.state.password} onChange={ this.handleChangePass}  />
-        <img className="boutton" src={SignIn} onClick={this.handleSubmitConnect}></img>
+        <img className="boutton" src={LogIn} onClick={this.handleSubmitConnect}></img>
         <img className="boutton" src={SignUp} onClick={this.handleSubmit}></img>
         <h2 className="mdp-forget" style={{fontSize: "19px"}} onClick={this.handleChangePassword.bind(this)}>Mot de passe oublié</h2>
       </div>
