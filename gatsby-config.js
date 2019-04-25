@@ -22,7 +22,7 @@ module.exports = {
         start_url: '/',
         background_color: '#0B3F63',
         theme_color: '#0B3F63',
-        display: 'minimal-ui',
+        display: 'Fullscreen',
         icon: 'src/images/zoneLogo.svg', // This path is relative to the root of the site.
       },
       "scripts": {
